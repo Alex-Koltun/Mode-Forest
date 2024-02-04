@@ -1,0 +1,1 @@
+mklink /j "D:\Games\RomeTotalWar\After" "D:\learn\After\Mode-After\After"
