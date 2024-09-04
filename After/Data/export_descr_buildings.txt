@@ -1145,7 +1145,10 @@ building port_buildings
                 recruit "naval biremes"  0  requires factions { eastern, } 
                 recruit "naval biremes"  0  requires factions { egyptian, } 
                 recruit "naval biremes"  0  requires factions { greek, } 
-                recruit "naval biremes"  0  requires factions { roman, } 
+                recruit "naval biremes"  0  requires factions { roman, }
+                recruit "naval greek hoplites"  2  requires factions { greek, egyptian, macedon, } 
+                recruit "naval peltast"  2  requires factions { roman, carthaginian, greek, macedon, } 
+                recruit "naval cilician"  1  requires factions { carthaginian, greek, egyptian, }
                 trade_fleet 1 ;trade_base_income_bonus bonus 1
             }
             construction  2 
@@ -1171,7 +1174,10 @@ building port_buildings
                 recruit "naval biremes"  0  requires factions { greek, } 
                 recruit "naval triremes"  0  requires factions { greek, } 
                 recruit "naval biremes"  0  requires factions { roman, } 
-                recruit "naval triremes"  0  requires factions { roman, } 
+                recruit "naval triremes"  0  requires factions { roman, }
+                recruit "naval greek hoplites"  3  requires factions { greek, carthaginian, egyptian, }
+                recruit "naval peltast"  3  requires factions { roman, carthaginian, macedon, greek, } 
+                recruit "naval cilician"  3  requires factions { carthaginian, greek, macedon, }  
                 trade_fleet 2 ;trade_base_income_bonus bonus 2
             }
             construction  3 
@@ -1203,6 +1209,9 @@ building port_buildings
                 recruit "naval biremes"  0  requires factions { roman, } 
                 recruit "naval triremes"  0  requires factions { roman, } 
                 recruit "naval quinquiremes"  0  requires factions { roman, } 
+                recruit "naval peltast"  3  requires factions { roman, carthaginian, greek, egyptian, macedon, } 
+                recruit "naval cilician"  3  requires factions { roman, carthaginian, greek, egyptian, macedon, } 
+                recruit "naval greek hoplites"  3  requires factions { roman, carthaginian, greek, egyptian, macedon, } 
                 trade_fleet 3 ;trade_base_income_bonus bonus 2
             }
             construction  5 
